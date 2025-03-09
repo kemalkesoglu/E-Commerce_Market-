@@ -95,7 +95,7 @@ FROM USERS U
 
 
 
---Nisan ayında en az 12 gün,günlük 500TL ve altında sipariş veren şehirler
+--Nisan ayında en az 12 gün,günlük 500TL altında sipariş veren şehirler
 SELECT CITY,COUNT(*) AS DAY_COUNT_U500
 FROM (
 SELECT 
